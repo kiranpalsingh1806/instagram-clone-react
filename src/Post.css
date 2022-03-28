@@ -1,0 +1,83 @@
+.post {
+  background-color: #fff;
+  max-width: 500px;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+}
+
+.post__image {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.post__text {
+  font-weight: normal;
+  padding: 20px;
+}
+
+.post__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.post__headerUser {
+  display: flex;
+  align-items: center;
+}
+
+.post__avatar {
+  margin-right: 10px;
+}
+
+.post__commentBox {
+  display: flex;
+  margin-top: 10px;
+}
+.post__comments {
+  padding: 20px;
+}
+.post__input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  border-top: 1px solid lightgray;
+}
+.post__button {
+  flex: 0;
+  border: none;
+  color: #6082a3;
+  background-color: transparent;
+  border-top: 1px solid lightgray;
+}
+
+.post__comment {
+  display: grid;
+  grid-template-columns: 0.5fr 5fr;
+  margin-bottom: 3px;
+}
+.post__deleteComment {
+  font-size: 12px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  border-radius: 1px;
+  cursor: pointer;
+  margin-right: 5px;
+  color: lightgray;
+  background-color: #fff;
+}
+
+.post__deletePost {
+  font-size: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+  color: lightgray;
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+.post__deletePost:hover {
+  background-color: rgb(238, 238, 238);
+  transition: background-color 0.25s linear;
+}
