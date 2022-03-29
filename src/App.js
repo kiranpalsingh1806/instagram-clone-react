@@ -99,7 +99,7 @@ function App() {
             <center>
               <img
                 className="app__headerImage"
-                src="https://lh3.googleusercontent.com/2sREY-8UpjmaLDCTztldQf6u2RGUtuyf6VT5iyX3z53JS4TdvfQlX-rNChXKgpBYMw"
+                src="https://logos-world.net/wp-content/uploads/2020/04/Instagram-Logo-2010-2013.png"
                 height="40px"
                 alt=""
               />
@@ -134,7 +134,7 @@ function App() {
             <center>
               <img
                 className="app__headerImage"
-                src="https://lh3.googleusercontent.com/2sREY-8UpjmaLDCTztldQf6u2RGUtuyf6VT5iyX3z53JS4TdvfQlX-rNChXKgpBYMw"
+                src="https://logos-world.net/wp-content/uploads/2020/04/Instagram-Logo-2010-2013.png"
                 height="40px"
                 alt=""
               />
@@ -160,7 +160,7 @@ function App() {
       <div className="app__header">
         <img
           className="app__headerImage"
-          src="https://lh3.googleusercontent.com/2sREY-8UpjmaLDCTztldQf6u2RGUtuyf6VT5iyX3z53JS4TdvfQlX-rNChXKgpBYMw"
+          src="https://logos-world.net/wp-content/uploads/2020/04/Instagram-Logo-2010-2013.png"
           height="40px"
           alt=""
         />
@@ -196,10 +196,10 @@ function App() {
             containerTagName="div"
             protocol=""
             injectScript
-            onLoading={() => {}}
-            onSuccess={() => {}}
-            onAfterRender={() => {}}
-            onFailure={() => {}}
+            onLoading={() => { }}
+            onSuccess={() => { }}
+            onAfterRender={() => { }}
+            onFailure={() => { }}
           />
         </div>
       </div>
@@ -207,7 +207,7 @@ function App() {
       {user?.displayName ? (
         <ImageUpload username={user.displayName} />
       ) : (
-        <h3>Sorry you need to login to upload</h3>
+        <h3 className="sorry__text">Sorry you need to login to upload</h3>
       )}
     </div>
   );

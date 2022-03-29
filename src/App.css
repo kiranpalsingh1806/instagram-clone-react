@@ -26,6 +26,15 @@
   column-gap: 10px;
 }
 
+.app__loginContainer button{
+  background-color: darkslateblue;
+  color: white;
+}
+.app__loginContainer button:hover{
+  background-color: rgb(97, 85, 173);
+  color: white;
+}
+
 .app__header {
   position: sticky;
   top: 0;
@@ -39,6 +48,7 @@
 }
 
 .app__headerImage {
+  height: 50px;
   background-color: #fff;
   padding: 20px;
   object-fit: contain;
@@ -47,4 +57,8 @@
 .app__signup {
   display: flex;
   flex-direction: column;
+}
+
+.sorry__text {
+  padding: 10px;
 }
